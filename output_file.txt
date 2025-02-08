@@ -1,0 +1,81 @@
+
+
+Book 2 Borrowed by patron 2001
+
+
+Book 2 Reserved by patron 3002
+
+BookId = 2
+Title = Book2
+Author = Author1
+Availability = No
+BorrowedBy = 2001
+Reservations = [3002]
+
+Book 5 Borrowed by patron 3002
+
+Book 2 Reserved by patron 1003
+
+BookId = 4
+Title = Book4
+Author = Author1
+Availability = Yes
+BorrowedBy = None
+Reservations = []
+
+Book 4 Borrowed by patron 2010
+
+BookId = 2
+Title = Book2
+Author = Author1
+Availability = No
+BorrowedBy = 2001
+Reservations = [3002, 1003]
+BookId = 4
+Title = Book4
+Author = Author1
+Availability = No
+BorrowedBy = 2010
+Reservations = []
+BookId = 5
+Title = Book5
+Author = Author3
+Availability = No
+BorrowedBy = 3002
+Reservations = []
+
+Book 2 Reserved by patron 2010
+
+Book 2 Reserved by patron 1004
+
+Book 2 Returned by patron 2001
+Book 2 Allotted to patron 3002
+
+Book 4 Returned by patron 2010
+
+BookId = 2
+Title = Book2
+Author = Author1
+Availability = No
+BorrowedBy = 3002
+Reservations = [1004, 1003, 2010]
+BookId = 4
+Title = Book4
+Author = Author1
+Availability = Yes
+BorrowedBy = None
+Reservations = []
+
+
+BookId = 3
+Title = Book3
+Author = Author4
+Availability = Yes
+BorrowedBy = None
+Reservations = []
+
+Book 2 is no longer available. Reservations made by Patrons 1004, 1003, 2010 have been cancelled!
+
+Colour Flip Count: 3
+
+Program Terminated!!
